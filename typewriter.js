@@ -1,4 +1,4 @@
-async function typewriter(txt, element, onFinished, config) {
+async function typewriter(txt, element, onFinished) {
     
     for (let char of txt) {
         switch(char) {
